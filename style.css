@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    background: linear-gradient(to left, rgba(0,0,0,0.3) , rgba(0,0,0,0.1) );
+}
+ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+ul li{
+    margin: 0;
+padding: 0;
+}
+ul li a{
+    text-decoration: none;
+}
+
+.section-1{
+    background: url('images/laptop.jpg') center center/cover no-repeat;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: .8;
+    background-attachment: fixed;
+    
+   
+  
+}
+.section-three{
+    height: 60vh;
+    background: url('images/img1.jpg') center center/cover no-repeat;
+    background-attachment: fixed;
+    opacity: .7;
+    
+}
+
+.section-five{
+    height: 40vh;
+    background: url('images/img1.jpg') center center/cover no-repeat;
+    opacity: .5;
+    
+}
+/* Footer */
+.footer-1 ul{
+    display: flex;
+    flex-direction: column;
+}
